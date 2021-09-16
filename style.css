@@ -11,16 +11,16 @@
 }
 
 h1 {
-  font-size: 5.4rem;
+  font-size: 6rem;
   color: #fff;
-  margin-bottom: 5rem;
+  margin-bottom: 6.5rem;
 }
 
 
 
 h2 {
-  font-size: 4.2rem;
-  margin-bottom: 4rem;
+  font-size: 6rem;
+  margin-bottom: 6.5rem;
 
 }
 
@@ -95,7 +95,7 @@ h2 {
   margin-left: 1rem;
 }
 
-/* End Page CSS */
+/*endpage*/
 .end-form-container {
   width: 100%;
   display: flex;

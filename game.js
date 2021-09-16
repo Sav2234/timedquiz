@@ -43,11 +43,27 @@ let questions = [
         choice3: "nah",
         choice4: "yea",
         answer: 4,
+    },
+    {
+        question: "what's up",
+        choice1: "the sky",
+        choice2: "good",
+        choice3: "im fine",
+        choice4: "dog",
+        answer: 4
+    },
+    {
+        question: "is pineapple pizza good",
+        choice1: "no",
+        choice2: "ofc it tastes delicious",
+        choice3: "nah",
+        choice4: "ew",
+        answer: 2,
     }
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 4
+const MAX_QUESTIONS = 6
 
 startGame = () => {
     questionCounter = 0
