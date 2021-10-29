@@ -136,8 +136,12 @@ function startTimer(duration, display) {
 
         if (--timer < 0) {
             timer = 0;
-            getNewQuestion(timer)
-            clearInterval;
+            getNewQuestion();
+            timer = duration;
+        }
+
+        if (seconds < 5){
+            document.getElementById("time_left").innerHTML = "FIVE SECONDS REMAINING";
         }
     }, 1000);
 }
