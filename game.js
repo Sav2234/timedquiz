@@ -136,13 +136,13 @@ function startTimer(duration, display) {
 
         if (--timer < 0) {
             timer = 0;
-            getNewQuestion(), timer = duration;
+            return window.location.assign('end.html');
         }
     }, 1000);
 }
 
 window.onload = function () {
-    var time = 60 / 4, // your time in seconds here
+    var time = 45, // your time in seconds here
         display = document.querySelector('#timer_secs');
     startTimer(time, display);
 };
