@@ -83,7 +83,7 @@ h2 {
 }
 
 #highscore-btn {
-  background: linear-gradient(90deg, rgba(197, 32, 3, 0.747) 0%, rgb(190, 46, 2) 100%);
+  background: linear-gradient(90deg, rgb(175, 21, 10), rgb(0, 102, 255) 100%)
 }
 
 #highscore-btn:hover {
